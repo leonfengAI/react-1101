@@ -1,0 +1,35 @@
+.user-management-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom right, #1a1c2e, #2d1b4e);
+}
+
+.top-section {
+  height: 5vh;
+  min-height: 48px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.bottom-section {
+  height: 95vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .user-management-page {
+    position: fixed;
+    height: -webkit-fill-available;
+  }
+}

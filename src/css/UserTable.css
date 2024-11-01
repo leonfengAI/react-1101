@@ -1,0 +1,71 @@
+.table-container {
+  padding: 1.5rem;
+  background: rgba(30, 30, 30, 0.7); /* 背景透明度 */
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  height: 80vh; /* 设置高度为浏览器高度的 80% */
+  overflow-y: auto; /* 允许内容超出时滚动 */
+}
+
+
+.user-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1rem; /* 添加表格行间距 */
+}
+
+.user-table th, .user-table td {
+  padding: 0.75rem 1rem;
+  background: rgba(50, 50, 50, 0.5); /* 单元格背景透明度 */
+  color: #e0e0e0; /* 字体颜色 */
+  border: none;
+  text-align: left;
+  border-radius: 0.5rem; /* 圆角 */
+}
+
+.user-table th {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #a0a0a0; /* 表头颜色 */
+}
+
+.user-table tr:hover td {
+  background: rgba(70, 70, 70, 0.7); /* 悬停效果 */
+}
+
+.user-table td {
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-button, .delete-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edit-button {
+  background: linear-gradient(45deg, #4facfe, #00f2fe); /* 蓝色渐变 */
+}
+
+.delete-button {
+  background: linear-gradient(45deg, #ff6b6b, #ff8e8e); /* 红色渐变 */
+}
+
+.edit-button:hover, .delete-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.edit-button:active, .delete-button:active {
+  transform: translateY(0);
+}

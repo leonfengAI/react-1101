@@ -1,0 +1,11 @@
+{
+  "organization": "组织",
+  "useCases": "用例",
+  "send": "发送",
+  "login": "登录",
+  "username": "用户名",
+  "password": "密码",
+  "theme": "主题",
+  "logout": "退出登录",
+  "changeLanguage": "更改语言"
+}

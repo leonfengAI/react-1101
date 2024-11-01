@@ -1,0 +1,11 @@
+{
+  "organization": "Organization",
+  "useCases": "Use Cases",
+  "send": "Send",
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "theme": "Theme",
+  "logout": "Log Out",
+  "changeLanguage": "Change Language"
+}

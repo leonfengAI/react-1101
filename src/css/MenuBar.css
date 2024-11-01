@@ -1,0 +1,39 @@
+.menu-bar {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 200ms;
+  color: #6b7280;
+  width: 100%;
+  text-align: left;
+}
+
+.menu-item:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.menu-item--selected {
+  background-color: #f3f4f6;
+  color: #111827;
+  font-weight: 500;
+}
+
+.menu-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+}
+
+.menu-label {
+  font-size: 0.875rem;
+}

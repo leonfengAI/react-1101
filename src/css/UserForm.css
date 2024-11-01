@@ -1,0 +1,110 @@
+.user-form {
+  background: rgba(255, 255, 255, 0.05); /* 轻微透明，适合主题 */
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.875rem;
+}
+
+.form-group input,
+.form-group select {
+  background: rgba(255, 255, 255, 0.05); /* 设置输入框背景透明 */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  transition: border-color 200ms;
+}
+
+.form-buttons button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 200ms, transform 200ms;
+}
+
+.clear-button:hover,
+.cancel-button:hover,
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.15); /* 增强 hover 效果 */
+}
+
+.clear-button {
+  background-image: linear-gradient(45deg, #868e96, #adb5bd);
+  color: white;
+}
+
+.cancel-button {
+  background-image: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  color: white;
+}
+
+.submit-button {
+  background-image: linear-gradient(45deg, #4facfe, #00f2fe);
+  color: white;
+}
+
+.clear-button:hover,
+.cancel-button:hover,
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.clear-button:active,
+.cancel-button:active,
+.submit-button:active {
+  transform: translateY(0);
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: white;
+  background: transparent; /* 设置表格内容背景透明 */
+}
+
+.user-table th,
+.user-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-table th {
+  background: linear-gradient(135deg, #2a2d3e, #1f1f2e);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 提高标题可见性 */
+}
+
+.user-table th:first-child {
+  border-top-left-radius: 0.5rem;
+}
+
+.user-table th:last-child {
+  border-top-right-radius: 0.5rem;
+}
+
+.user-table tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,11 @@
+{
+  "organization": "組織",
+  "useCases": "ユースケース",
+  "send": "送信",
+  "login": "ログイン",
+  "username": "ユーザー名",
+  "password": "パスワード",
+  "theme": "テーマ",
+  "logout": "ログアウト",
+  "changeLanguage": "言語を変更"
+}
